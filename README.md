@@ -38,10 +38,10 @@ pip install -r requirements.txt
 
 #### Packages used in the script:
 
-gen3.auth and gen3.file (from gen3)
-requests (for HTTP uploads)
-PyJWT (for decoding token information)
-boto3, botocore, jmespath, s3transfer (if using S3 uploads)
+1. gen3.auth and gen3.file (from gen3)
+2. requests (for HTTP uploads)
+3. PyJWT (for decoding token information)
+4. boto3, botocore, jmespath, s3transfer (if using S3 uploads)
 
 ## Script Usage
 ### Step 1: Run the script
