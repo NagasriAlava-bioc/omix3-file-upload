@@ -16,14 +16,14 @@ This repository contains a Python script to upload files to OMIX3 storage and up
 ### Step 1: Create a virtual environment
 
 ```bash
-python3 -m venv gen3_env
+python3 -m venv ~/gen3_env
 ```
 ### Step 2: Activate the environment
 
 ## Linux/macOS:
 
 ```bash
-source gen3_env/bin/activate
+source ~/gen3_env/bin/activate
 ```
 
 ## Windows:
@@ -44,6 +44,15 @@ pip install -r requirements.txt
 4. boto3, botocore, jmespath, s3transfer (if using S3 uploads)
 
 ## Script Usage
+### Step1: Configure credentials
+
+In the script ( scripts/gen3sdk_upload_file.py ), there is a variable called CREDENTIALS that points to your Gen3 credentials file:
+
+```bash
+CREDENTIALS = "/path/to/the/cred.json"
+```
+➡️ Update this path to point to your actual Gen3 credentials file before running the script.
+
 ### Step 1: Run the script
 ```bash
 python scripts/gen3sdk_upload_file.py <file_to_upload>
