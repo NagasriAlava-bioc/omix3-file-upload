@@ -51,5 +51,5 @@ python scripts/gen3sdk_upload_file.py <file_to_upload>
 ```
 #### Example:
 ```bash
-python scripts/gen3sdk_upload_file.py examples/test_s3_in_01.txt
+python scripts/gen3sdk_upload_file.py ~/path/to/test_s3_in_01.txt
 ```
