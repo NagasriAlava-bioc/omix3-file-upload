@@ -6,9 +6,9 @@ This repository contains a Python script to upload files to OMIX3 storage and up
 
 ## Prerequisites
 
-**Gen3 Credentials**: You must have a cred.json file containing your Gen3 API token with appropriate write permissions to the target project.
-**Access to S3 Bucket**: Ensure that your Gen3 project is configured with an S3 bucket where files can be uploaded.
-**Python Environment**: Python 3.10+ is recommended.
+**Gen3 Credentials** : You must have a cred.json file containing your Gen3 API token with appropriate write permissions to the target project.
+**Access to S3 Bucket** : Ensure that your Gen3 project is configured with an S3 bucket where files can be uploaded.
+**Python Environment** : Python 3.10+ is recommended.
 ---
 
 ## Python Environment Setup
