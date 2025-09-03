@@ -20,17 +20,12 @@ python3 -m venv ~/gen3_env
 ```
 ### Step 2: Activate the environment
 
-## Linux/macOS:
+#### Linux/macOS:
 
 ```bash
 source ~/gen3_env/bin/activate
 ```
 
-## Windows:
-
-```bash
-gen3_env\Scripts\activate
-```
 ### Step 3: Install required packages
 ```bash
 pip install -r requirements.txt
