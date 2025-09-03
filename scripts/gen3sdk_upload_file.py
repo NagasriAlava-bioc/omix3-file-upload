@@ -11,7 +11,7 @@ from gen3.index import Gen3Index
 
 # ---------- CONFIG ----------
 COMMONS = "https://omix3.test.biocommons.org.au"
-CREDENTIALS = "/path/to/the/cred.json"
+CREDENTIALS = "/Users/nalava/Downloads/cred.json"
 AUTHZ = ["/programs/program1/projects/synthetic_dataset_1"]  # project write access
 # ----------------------------
 
